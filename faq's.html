@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="faq-container">
+        <h1>Frequently Asked Questions</h1>
+        
+        <div class="faq-item">
+            <div class="faq-question" onclick="toggleAnswer(this)">
+                <span>Documents Required?</span>
+                <span class="arrow">&#9662;</span>
+            </div>
+            <div class="faq-answer">
+                <p>Age 18+ After Booking Successful you can Upload your selfie photo & Aadhar card & Driving License in App one time only from next booking documents not required. Our team will verify & Approve your documents. You must upload your documents before your pickup time otherwise your booking will be Auto cancelled no refund.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question" onclick="toggleAnswer(this)">
+                <span>Damage Protection</span>
+                <span class="arrow">&#9662;</span>
+            </div>
+            <div class="faq-answer">
+                <p>If You Choose Zero Deposit Damage Protection You Pay Up-to 20000rs Only in case of damage. If Major Damage Customer should bring FIR copy or panchanama from police station. Customer should support for Insurance Verification Until Approved. If You Choose Bike + RC No Insurance will be Applied, full Damage Amount Lakhs Of Money should be Paid by Customer In-case of damage. Rent Amount No Refund & No Adjustment for Another Car booking. Note: In case vehicle damage estimates exceed Rs 2,00,000, a mandatory deductible equivalent to the estimated damage amount is required.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question" onclick="toggleAnswer(this)">
+                <span>Late or Extension Rules?</span>
+                <span class="arrow">&#9662;</span>
+            </div>
+            <div class="faq-answer">
+                <p>200/hr for 5 Seater, 400/hr for 6,7,8 Seater. If You Extend More than 24hr before Return Time, Same Price. If You Extend After Return Time, then Double Amount will be charged.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question" onclick="toggleAnswer(this)">
+                <span>Pickup Car Location</span>
+                <span class="arrow">&#9662;</span>
+            </div>
+            <div class="faq-answer">
+                <p>In My Trips, You Will Get Exact Car Location After Booking Successfully After Uploading Documents.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question" onclick="toggleAnswer(this)">
+                <span>Refund & Cancellation Policy</span>
+                <span class="arrow">&#9662;</span>
+            </div>
+            <div class="faq-answer">
+                <p>For Full Payment:<br> 70% Refund before 12hr pick-up Time to account,<br> 40% Refund before Pickup Time to account, <br>0% Refund after Pickup Time.<br>
+                For Half Payment: <br>50% Refund before 12hr pick-up Time to account,<br> 25% Refund before Pickup Time to account, <br>0% Refund After Pickup Time.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        function toggleAnswer(element) {
+            const answer = element.nextElementSibling;
+            const arrow = element.querySelector('.arrow');
+            
+            answer.classList.toggle('visible');
+            arrow.innerHTML = answer.classList.contains('visible') ? '&#9652;' : '&#9662;';
+        }
+    </script>
+</body>
+</html>

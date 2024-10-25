@@ -1,0 +1,381 @@
+*{
+    margin:1% ;
+    padding-top:12% ;
+}
+
+body{
+    background-color: lightcyan;
+
+
+}
+.div1{
+    padding-bottom: 800px;
+    margin-left: 50px;
+    word-spacing: 70px;
+    font-size: xx-large;
+    border-radius: 20px;
+    text-align: center;
+    height: 100px;
+    
+    a{text-decoration: none;
+    color: orange;}
+    a:hover{
+        color: black;
+    }
+    a:active{
+        color: blue;
+    }
+    
+    }
+   
+    .vehicle-list {
+        
+        padding: 20px;
+        margin: 50px;
+        width: 350px;
+        text-align: center;
+        display: grid;
+        grid-template-columns: repeat(4,125%);
+        grid-gap: 15px;
+        a{
+            color: black;
+            text-decoration: none;
+        }
+        
+        
+    }
+
+
+
+
+
+
+
+
+
+
+
+.feature-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.feature-box i {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.about{
+    margin-left: 850px;
+    display: flex;
+}
+.ah1{
+    text-align: center;
+    color: orange;
+    padding-top: 150px;
+}
+#b1{
+    font-size: x-large;
+    color:blue;
+}
+.car-listing {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f5f5f5;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    height: 340px;
+  }
+  
+  .car-listing img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .car-listing h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .car-listing ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .car-listing ul li {
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .car-listing button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .car-listing button:hover {
+    background-color: #3e8e41;
+  }
+
+  .booking-form {
+    
+    max-width: 800px;
+    padding: 20px;
+    background-color: lightcyan;
+    margin: auto;
+    
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    a{
+        color:white;
+        text-decoration: none;
+    }
+}
+
+button:hover {
+    background-color: #0069d9;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 20px;
+}
+
+.faq-container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.faq-item {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 10px;
+}
+
+.faq-question {
+    display: flex;
+    justify-content: space-between;
+    background-color: #007bff;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.faq-question:hover {
+    background-color: #0056b3;
+}
+
+.faq-answer {
+    display: none;
+    padding: 10px;
+    background-color: #f9f9f9;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.faq-answer.visible {
+    display: block;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+.arrow {
+    font-size: 20px;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.contact-container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 80%;
+    max-width: 900px;
+}
+
+h1 {
+    font-size: 32px;
+    color: #007BFF;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.contact-details {
+    margin-top: 20px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.contact-item i {
+    font-size: 24px;
+    color: #007BFF;
+    margin-right: 10px;
+}
+
+.contact-item p {
+    font-size: 18px;
+    color: #333;
+}
+
+a {
+    color: orange;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+footer {
+    margin-top: 800px;
+    font-size: 14px;
+    color: #777;
+    text-align: left;
+    
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: lightblue;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 350px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.form-container {
+    padding: 20px;
+}
+
+.form-toggle {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.toggle-button {
+    background: transparent;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.toggle-button:hover {
+    color: #007bff;
+}
+
+.form {
+    display: none;
+}
+
+.form.active {
+    display: block;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid black;
+    border-radius: 5px;
+    transition: border 0.3s;
+}
+
+input:focus {
+    border: 2px solid #59d00f;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #1daea5;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #aa2049;
+}
+
